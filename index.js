@@ -4,7 +4,7 @@ const port =300
 
 // Root Router
 app.get(`/`, (req, res) =>{
-res.send("<h1> Hello World"</h1>)
+res.send("<h1> Hello World</h1>")
 })
 
 app.listen(port, ()=>{
